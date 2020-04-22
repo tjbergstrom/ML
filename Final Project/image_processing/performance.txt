@@ -1,0 +1,4702 @@
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.98      0.97        98
+       phone       0.98      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.99      0.97        98
+       phone       0.99      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[97  1]
+ [ 6 91]]
+
+
+model= lenet, opt= SDG, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.92      0.95      0.93        98
+       phone       0.95      0.92      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[93  5]
+ [ 8 89]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.88      0.92        98
+       phone       0.89      0.98      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[86 12]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.96      0.97        98
+       phone       0.96      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.97      0.97        98
+       phone       0.97      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.99      0.97        98
+       phone       0.99      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[97  1]
+ [ 6 91]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.98      0.96        98
+       phone       0.98      0.93      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[96  2]
+ [ 7 90]]
+
+
+model= lenet, opt= Adam, aug= light, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= medium1, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= medium2, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= heavy1, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= heavy2, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= light, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.97      0.98        98
+       phone       0.97      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.99      0.98      0.98       195
+
+[[95  3]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= medium1, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= medium2, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam, aug= heavy1, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= heavy2, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.93      0.96        98
+       phone       0.93      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[91  7]
+ [ 1 96]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.96      0.96        98
+       phone       0.96      0.96      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[94  4]
+ [ 4 93]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.99      0.97        98
+       phone       0.99      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[97  1]
+ [ 6 91]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.97      0.97        98
+       phone       0.97      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta2, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.97      0.97        98
+       phone       0.97      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 3 94]]
+
+
+model= lenet, opt= Adadelta2, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta2, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.90      0.95        98
+       phone       0.91      1.00      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[88 10]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta2, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.89      0.94        98
+       phone       0.90      0.99      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[87 11]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta2, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.96      0.97        98
+       phone       0.96      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta2, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.92      0.95        98
+       phone       0.92      0.98      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[90  8]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 1, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.90      0.93      0.91        98
+       phone       0.93      0.90      0.91        97
+
+    accuracy                           0.91       195
+   macro avg       0.91      0.91      0.91       195
+weighted avg       0.91      0.91      0.91       195
+
+[[91  7]
+ [10 87]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 1, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.92      0.87      0.89        98
+       phone       0.87      0.93      0.90        97
+
+    accuracy                           0.90       195
+   macro avg       0.90      0.90      0.90       195
+weighted avg       0.90      0.90      0.90       195
+
+[[85 13]
+ [ 7 90]]
+
+
+model= lenet, opt= Adam, aug= light2, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adadelta, aug= light3, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 5, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.85      0.92        98
+       phone       0.87      1.00      0.93        97
+
+    accuracy                           0.92       195
+   macro avg       0.93      0.92      0.92       195
+weighted avg       0.93      0.92      0.92       195
+
+[[83 15]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= Adam3, imgsz s, epochs= 5, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.85      0.92        98
+       phone       0.87      1.00      0.93        97
+
+    accuracy                           0.92       195
+   macro avg       0.93      0.92      0.92       195
+weighted avg       0.93      0.92      0.92       195
+
+[[83 15]
+ [ 0 97]]
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+**************************************************************************
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.98      0.98        98
+       phone       0.98      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.97      0.96        98
+       phone       0.97      0.96      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[95  3]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.90      0.99      0.94        98
+       phone       0.99      0.89      0.93        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[97  1]
+ [11 86]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.98      0.98        98
+       phone       0.98      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.98      0.96        98
+       phone       0.98      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[96  2]
+ [ 6 91]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.95      0.96        98
+       phone       0.95      0.97      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[93  5]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.93      0.96        98
+       phone       0.93      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[91  7]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.97      0.98        98
+       phone       0.97      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.99      0.98      0.98       195
+
+[[95  3]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.89      0.99      0.94        98
+       phone       0.99      0.88      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[97  1]
+ [12 85]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.94      0.95        98
+       phone       0.94      0.97      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[92  6]
+ [ 3 94]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.93      0.95        98
+       phone       0.93      0.97      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[91  7]
+ [ 3 94]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.90      0.94      0.92        98
+       phone       0.94      0.90      0.92        97
+
+    accuracy                           0.92       195
+   macro avg       0.92      0.92      0.92       195
+weighted avg       0.92      0.92      0.92       195
+
+[[92  6]
+ [10 87]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.98      0.96        98
+       phone       0.98      0.95      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[96  2]
+ [ 5 92]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.92      0.93        98
+       phone       0.92      0.94      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[90  8]
+ [ 6 91]]
+
+
+model= lenet, opt= SDG2, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.96      0.96        98
+       phone       0.96      0.97      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[94  4]
+ [ 3 94]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.99      0.96        98
+       phone       0.99      0.93      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[97  1]
+ [ 7 90]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.87      0.93        98
+       phone       0.88      1.00      0.94        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[85 13]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.97      0.97        98
+       phone       0.97      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.85      0.99      0.92        98
+       phone       0.99      0.82      0.90        97
+
+    accuracy                           0.91       195
+   macro avg       0.92      0.91      0.91       195
+weighted avg       0.92      0.91      0.91       195
+
+[[97  1]
+ [17 80]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.94      0.96        98
+       phone       0.94      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[92  6]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.89      0.94        98
+       phone       0.90      0.99      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[87 11]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.99      0.96        98
+       phone       0.99      0.93      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[97  1]
+ [ 7 90]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.96      0.97        98
+       phone       0.96      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.96      0.98        98
+       phone       0.96      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[94  4]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.92      0.97      0.95        98
+       phone       0.97      0.92      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[95  3]
+ [ 8 89]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.93      0.94        98
+       phone       0.93      0.95      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[91  7]
+ [ 5 92]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.98      0.96        98
+       phone       0.98      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[96  2]
+ [ 6 91]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.93      0.95        98
+       phone       0.93      0.98      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[91  7]
+ [ 2 95]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.95      0.94        98
+       phone       0.95      0.93      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[93  5]
+ [ 7 90]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.96      0.95        98
+       phone       0.96      0.95      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[94  4]
+ [ 5 92]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.99      0.97        98
+       phone       0.99      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[97  1]
+ [ 6 91]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.97      0.97        98
+       phone       0.97      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 2 95]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.98      0.98        98
+       phone       0.98      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.96      0.97        98
+       phone       0.96      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+
+
+####################################################################################
+
+
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 25, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.98      0.98        98
+       phone       0.98      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 25, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.98      0.97        98
+       phone       0.98      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 25, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 25, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 25, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.99      0.99        98
+       phone       0.99      0.99      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 25, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 25, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 25, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 25, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.99      0.99        98
+       phone       0.99      0.99      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 25, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 25, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.91      0.98      0.95        98
+       phone       0.98      0.91      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.95      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[96  2]
+ [ 9 88]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 25, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.92      0.99      0.96        98
+       phone       0.99      0.92      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[97  1]
+ [ 8 89]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 25, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 25, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.96      0.97        98
+       phone       0.96      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 25, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.90      0.99      0.94        98
+       phone       0.99      0.89      0.93        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[97  1]
+ [11 86]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.98      0.99        98
+       phone       0.98      1.00      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[96  2]
+ [ 0 97]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.98      0.97        98
+       phone       0.98      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 4 93]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.93      0.96        98
+       phone       0.93      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[91  7]
+ [ 1 96]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.93      0.96        98
+       phone       0.93      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[91  7]
+ [ 1 96]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.30      0.46        98
+       phone       0.58      1.00      0.74        97
+
+    accuracy                           0.65       195
+   macro avg       0.79      0.65      0.60       195
+weighted avg       0.79      0.65      0.60       195
+
+[[29 69]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 25, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 25, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.89      0.94        98
+       phone       0.90      1.00      0.95        97
+
+    accuracy                           0.94       195
+   macro avg       0.95      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[87 11]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 25, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 25, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 25, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.94      0.96        98
+       phone       0.94      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[92  6]
+ [ 1 96]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.99      0.96        98
+       phone       0.99      0.93      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[97  1]
+ [ 7 90]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.88      0.85      0.86        98
+       phone       0.85      0.89      0.87        97
+
+    accuracy                           0.87       195
+   macro avg       0.87      0.87      0.87       195
+weighted avg       0.87      0.87      0.87       195
+
+[[83 15]
+ [11 86]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.81      0.86        98
+       phone       0.83      0.94      0.88        97
+
+    accuracy                           0.87       195
+   macro avg       0.88      0.87      0.87       195
+weighted avg       0.88      0.87      0.87       195
+
+[[79 19]
+ [ 6 91]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.88      0.84      0.86        98
+       phone       0.84      0.89      0.86        97
+
+    accuracy                           0.86       195
+   macro avg       0.86      0.86      0.86       195
+weighted avg       0.86      0.86      0.86       195
+
+[[82 16]
+ [11 86]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.81      0.89      0.85        98
+       phone       0.88      0.79      0.83        97
+
+    accuracy                           0.84       195
+   macro avg       0.84      0.84      0.84       195
+weighted avg       0.84      0.84      0.84       195
+
+[[87 11]
+ [20 77]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.79      0.86      0.82        98
+       phone       0.84      0.76      0.80        97
+
+    accuracy                           0.81       195
+   macro avg       0.81      0.81      0.81       195
+weighted avg       0.81      0.81      0.81       195
+
+[[84 14]
+ [23 74]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.70      0.91      0.79        98
+       phone       0.87      0.61      0.72        97
+
+    accuracy                           0.76       195
+   macro avg       0.78      0.76      0.75       195
+weighted avg       0.78      0.76      0.75       195
+
+[[89  9]
+ [38 59]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.54      0.99      0.70        98
+       phone       0.94      0.15      0.27        97
+
+    accuracy                           0.57       195
+   macro avg       0.74      0.57      0.48       195
+weighted avg       0.74      0.57      0.48       195
+
+[[97  1]
+ [82 15]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.61      0.99      0.75        98
+       phone       0.97      0.36      0.53        97
+
+    accuracy                           0.68       195
+   macro avg       0.79      0.68      0.64       195
+weighted avg       0.79      0.68      0.64       195
+
+[[97  1]
+ [62 35]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.69      0.88      0.77        98
+       phone       0.83      0.60      0.69        97
+
+    accuracy                           0.74       195
+   macro avg       0.76      0.74      0.73       195
+weighted avg       0.76      0.74      0.73       195
+
+[[86 12]
+ [39 58]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.59      0.84      0.69        98
+       phone       0.71      0.40      0.51        97
+
+    accuracy                           0.62       195
+   macro avg       0.65      0.62      0.60       195
+weighted avg       0.65      0.62      0.60       195
+
+[[82 16]
+ [58 39]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      0.69      0.58        98
+       phone       0.49      0.30      0.37        97
+
+    accuracy                           0.50       195
+   macro avg       0.50      0.50      0.48       195
+weighted avg       0.50      0.50      0.48       195
+
+[[68 30]
+ [68 29]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.50      1.00      0.67        98
+       phone       0.00      0.00      0.00        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.34       195
+
+[[98  0]
+ [97  0]]
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 50, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.99      0.98        98
+       phone       0.99      0.97      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 50, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz m, epochs= 50, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 50, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 50, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.99      0.99        98
+       phone       0.99      0.99      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 1 96]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 50, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 50, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 50, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.99      0.97        98
+       phone       0.99      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[97  1]
+ [ 6 91]]
+
+
+model= lenet, opt= Adam3, aug= original, imgsz m, epochs= 50, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.96      0.98        98
+       phone       0.96      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[94  4]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 50, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.99      0.97        98
+       phone       0.99      0.95      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 5 92]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 50, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.88      0.93        98
+       phone       0.89      1.00      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[86 12]
+ [ 0 97]]
+
+
+model= lenet, opt= Adadelta, aug= original, imgsz m, epochs= 50, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.96      0.97        98
+       phone       0.96      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 1 96]]
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+model= cnn, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.96      0.98        98
+       phone       0.96      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[94  4]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.97      0.97        98
+       phone       0.97      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.96      0.97        98
+       phone       0.96      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.77      0.87        98
+       phone       0.81      1.00      0.89        97
+
+    accuracy                           0.88       195
+   macro avg       0.90      0.88      0.88       195
+weighted avg       0.90      0.88      0.88       195
+
+[[75 23]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.87      0.93        98
+       phone       0.88      1.00      0.94        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[85 13]
+ [ 0 97]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.90      0.99      0.94        98
+       phone       0.99      0.89      0.93        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[97  1]
+ [11 86]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.98      0.97        98
+       phone       0.98      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 4 93]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.86      0.92        98
+       phone       0.87      1.00      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[84 14]
+ [ 0 97]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.97      0.95        98
+       phone       0.97      0.93      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[95  3]
+ [ 7 90]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.97      0.95        98
+       phone       0.97      0.94      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[95  3]
+ [ 6 91]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.96      0.95        98
+       phone       0.96      0.95      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[94  4]
+ [ 5 92]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz s, epochs= 75, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.99      0.98        98
+       phone       0.99      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[97  1]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz s, epochs= 75, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.95      0.96        98
+       phone       0.95      0.97      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[93  5]
+ [ 3 94]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz s, epochs= 75, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz s, epochs= 75, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz s, epochs= 75, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.96      0.97        98
+       phone       0.96      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz s, epochs= 75, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz s, epochs= 75, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz s, epochs= 75, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz s, epochs= 75, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz s, epochs= 75, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.96      0.97        98
+       phone       0.96      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[94  4]
+ [ 2 95]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz s, epochs= 75, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz s, epochs= 75, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.95      0.96        98
+       phone       0.95      0.98      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[93  5]
+ [ 2 95]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz s, epochs= 75, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz s, epochs= 75, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.98      0.96        98
+       phone       0.98      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[96  2]
+ [ 6 91]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz s, epochs= 75, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.94      0.94        98
+       phone       0.94      0.95      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[92  6]
+ [ 5 92]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.94      0.94        98
+       phone       0.94      0.95      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[92  6]
+ [ 5 92]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.90      0.97      0.94        98
+       phone       0.97      0.90      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[95  3]
+ [10 87]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.90      0.94        98
+       phone       0.91      0.99      0.95        97
+
+    accuracy                           0.94       195
+   macro avg       0.95      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[88 10]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz lg, epochs= 50, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.90      0.95        98
+       phone       0.91      1.00      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[88 10]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz lg, epochs= 50, bs= 50, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.97      0.98        98
+       phone       0.97      0.99      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[95  3]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz lg, epochs= 50, bs= 75, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.96      0.98        98
+       phone       0.96      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[94  4]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz lg, epochs= 50, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.99      0.99        98
+       phone       0.99      1.00      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz lg, epochs= 50, bs= 50, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz lg, epochs= 50, bs= 75, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.87      0.92        98
+       phone       0.88      0.99      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[85 13]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz lg, epochs= 50, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.96      0.98        98
+       phone       0.96      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[94  4]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz lg, epochs= 50, bs= 50, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.89      0.94        98
+       phone       0.90      1.00      0.95        97
+
+    accuracy                           0.94       195
+   macro avg       0.95      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[87 11]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz lg, epochs= 50, bs= 75, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz lg, epochs= 50, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.98      0.97        98
+       phone       0.98      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 4 93]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz lg, epochs= 50, bs= 50, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= RMSprop, aug= original, imgsz lg, epochs= 50, bs= 75, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.92      0.99      0.95        98
+       phone       0.99      0.91      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[97  1]
+ [ 9 88]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz lg, epochs= 50, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.99      0.99        98
+       phone       0.99      0.99      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 1 96]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz lg, epochs= 50, bs= 50, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= cnn, opt= Adadelta, aug= original, imgsz lg, epochs= 50, bs= 75, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz lg, epochs= 50, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.97      0.97        98
+       phone       0.97      0.98      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 2 95]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz lg, epochs= 50, bs= 50, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.96      0.96        98
+       phone       0.96      0.96      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[94  4]
+ [ 4 93]]
+
+
+model= cnn, opt= SGD, aug= original, imgsz lg, epochs= 50, bs= 75, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.95      0.94        98
+       phone       0.95      0.94      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[93  5]
+ [ 6 91]]
+
+
+model= cnn, opt= Adam, aug= original, imgsz lg, epochs= 75, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.97      0.98        98
+       phone       0.97      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.99      0.98      0.98       195
+
+[[95  3]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam2, aug= original, imgsz lg, epochs= 75, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam3, aug= original, imgsz lg, epochs= 75, bs= 25, hxw= 64
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= lenet, opt= Adam, aug= original, imgsz s, epochs= 1, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.26      0.41        98
+       phone       0.57      1.00      0.73        97
+
+    accuracy                           0.63       195
+   macro avg       0.79      0.63      0.57       195
+weighted avg       0.79      0.63      0.57       195
+
+[[25 73]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.98      0.98        98
+       phone       0.98      0.98      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[96  2]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.93      0.95        98
+       phone       0.93      0.98      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[91  7]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.94      0.96        98
+       phone       0.94      0.99      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[92  6]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.95      0.96        98
+       phone       0.95      0.98      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[93  5]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 25, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.94      0.96        98
+       phone       0.94      0.98      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[92  6]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.98      0.97        98
+       phone       0.98      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 3 94]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.97      0.96        98
+       phone       0.97      0.96      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[95  3]
+ [ 4 93]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.90      0.95        98
+       phone       0.91      1.00      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[88 10]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 25, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 50, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz s, epochs= 50, bs= 75, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.95      0.96        98
+       phone       0.95      0.97      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[93  5]
+ [ 3 94]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.98      0.96        98
+       phone       0.98      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[96  2]
+ [ 6 91]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.98      0.97        98
+       phone       0.98      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[96  2]
+ [ 4 93]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.87      0.93        98
+       phone       0.88      1.00      0.94        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[85 13]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 25, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 50, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.94      0.97        98
+       phone       0.94      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[92  6]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 25, bs= 75, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.95      0.96        98
+       phone       0.95      0.98      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[93  5]
+ [ 2 95]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 16, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.99      0.99        98
+       phone       0.99      1.00      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 24, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.99      0.99        98
+       phone       0.99      1.00      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.97      0.98        98
+       phone       0.97      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.99      0.98      0.98       195
+
+[[95  3]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 64, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.93      0.96        98
+       phone       0.93      1.00      0.97        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[91  7]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 25, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.91      0.95        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.95       195
+   macro avg       0.96      0.95      0.95       195
+weighted avg       0.96      0.95      0.95       195
+
+[[89  9]
+ [ 0 97]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 50, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.92      0.99      0.95        98
+       phone       0.99      0.91      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[97  1]
+ [ 9 88]]
+
+
+model= cnn, opt= Adam4, aug= original, imgsz m, epochs= 50, bs= 75, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.97      0.97      0.97        98
+       phone       0.97      0.97      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[95  3]
+ [ 3 94]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 1, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.83      0.98      0.90        98
+       phone       0.97      0.80      0.88        97
+
+    accuracy                           0.89       195
+   macro avg       0.90      0.89      0.89       195
+weighted avg       0.90      0.89      0.89       195
+
+[[96  2]
+ [19 78]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 50, bs= 32, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.99      0.99        98
+       phone       0.99      1.00      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[97  1]
+ [ 0 97]]
+
+
+model= lenet, opt= Adam2, aug= original, imgsz m, epochs= 50, bs= 42, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.99      0.97        98
+       phone       0.99      0.94      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.97      0.96      0.96       195
+weighted avg       0.97      0.96      0.96       195
+
+[[97  1]
+ [ 6 91]]
+
+
+model= lenet, opt= RMSprop, aug= original, imgsz m, epochs= 25, bs= 72, hxw= 48
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.95      0.97        98
+       phone       0.95      0.99      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[93  5]
+ [ 1 96]]
+
+
+model= vgg, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= vgg, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.93      0.85      0.89        98
+       phone       0.86      0.94      0.90        97
+
+    accuracy                           0.89       195
+   macro avg       0.90      0.89      0.89       195
+weighted avg       0.90      0.89      0.89       195
+
+[[83 15]
+ [ 6 91]]
+
+
+model= vgg, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.96      0.98        98
+       phone       0.96      1.00      0.98        97
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.98      0.98       195
+weighted avg       0.98      0.98      0.98       195
+
+[[94  4]
+ [ 0 97]]
+
+
+model= vgg, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.98      0.99        98
+       phone       0.98      1.00      0.99        97
+
+    accuracy                           0.99       195
+   macro avg       0.99      0.99      0.99       195
+weighted avg       0.99      0.99      0.99       195
+
+[[96  2]
+ [ 0 97]]
+
+
+model= vgg, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.99      0.97        98
+       phone       0.99      0.96      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.97      0.97      0.97       195
+weighted avg       0.97      0.97      0.97       195
+
+[[97  1]
+ [ 4 93]]
+
+
+model= vgg, opt= Adam3, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.87      0.93        98
+       phone       0.88      1.00      0.94        97
+
+    accuracy                           0.93       195
+   macro avg       0.94      0.93      0.93       195
+weighted avg       0.94      0.93      0.93       195
+
+[[85 13]
+ [ 0 97]]
+
+
+model= vgg, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 16, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.85      0.92        98
+       phone       0.87      1.00      0.93        97
+
+    accuracy                           0.92       195
+   macro avg       0.93      0.92      0.92       195
+weighted avg       0.93      0.92      0.92       195
+
+[[83 15]
+ [ 0 97]]
+
+
+model= vgg, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 24, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.95      0.97        98
+       phone       0.95      1.00      0.97        97
+
+    accuracy                           0.97       195
+   macro avg       0.98      0.97      0.97       195
+weighted avg       0.98      0.97      0.97       195
+
+[[93  5]
+ [ 0 97]]
+
+
+model= vgg, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.81      0.89        98
+       phone       0.84      1.00      0.91        97
+
+    accuracy                           0.90       195
+   macro avg       0.92      0.90      0.90       195
+weighted avg       0.92      0.90      0.90       195
+
+[[79 19]
+ [ 0 97]]
+
+
+model= vgg, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.96      0.96        98
+       phone       0.96      0.96      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[94  4]
+ [ 4 93]]
+
+
+model= vgg, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 64, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.92      0.96        98
+       phone       0.92      1.00      0.96        97
+
+    accuracy                           0.96       195
+   macro avg       0.96      0.96      0.96       195
+weighted avg       0.96      0.96      0.96       195
+
+[[90  8]
+ [ 0 97]]
+
+
+model= vgg, opt= Adadelta, aug= original, imgsz s, epochs= 25, bs= 72, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.74      0.85        98
+       phone       0.80      1.00      0.89        97
+
+    accuracy                           0.87       195
+   macro avg       0.90      0.87      0.87       195
+weighted avg       0.90      0.87      0.87       195
+
+[[73 25]
+ [ 0 97]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.00      0.00      0.00        98
+       phone       0.50      1.00      0.66        97
+
+    accuracy                           0.50       195
+   macro avg       0.25      0.50      0.33       195
+weighted avg       0.25      0.50      0.33       195
+
+[[ 0 98]
+ [ 0 97]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.99      0.91      0.95        98
+       phone       0.91      0.99      0.95        97
+
+    accuracy                           0.95       195
+   macro avg       0.95      0.95      0.95       195
+weighted avg       0.95      0.95      0.95       195
+
+[[89  9]
+ [ 1 96]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.93      0.94        98
+       phone       0.93      0.96      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[91  7]
+ [ 4 93]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.91      0.93        98
+       phone       0.91      0.96      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[89  9]
+ [ 4 93]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 100, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.91      0.93        98
+       phone       0.91      0.95      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[89  9]
+ [ 5 92]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 100, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       1.00      0.89      0.94        98
+       phone       0.90      1.00      0.95        97
+
+    accuracy                           0.94       195
+   macro avg       0.95      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[87 11]
+ [ 0 97]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 100, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.91      0.93        98
+       phone       0.91      0.96      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[89  9]
+ [ 4 93]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.91      0.94        98
+       phone       0.91      0.98      0.95        97
+
+    accuracy                           0.94       195
+   macro avg       0.95      0.94      0.94       195
+weighted avg       0.95      0.94      0.94       195
+
+[[89  9]
+ [ 2 95]]
+
+
+model= lenet, opt= SGD, aug= original, imgsz s, epochs= 75, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.94      0.92      0.93        98
+       phone       0.92      0.94      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[90  8]
+ [ 6 91]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 75, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.98      0.90      0.94        98
+       phone       0.90      0.98      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[88 10]
+ [ 2 95]]
+
+
+model= lenet, opt= SGD2, aug= original, imgsz s, epochs= 75, bs= 42, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.96      0.91      0.93        98
+       phone       0.91      0.96      0.93        97
+
+    accuracy                           0.93       195
+   macro avg       0.93      0.93      0.93       195
+weighted avg       0.93      0.93      0.93       195
+
+[[89  9]
+ [ 4 93]]
+
+
+model= lenet, opt= SGD3, aug= original, imgsz s, epochs= 75, bs= 32, hxw= 32
+
+              precision    recall  f1-score   support
+
+         gun       0.95      0.94      0.94        98
+       phone       0.94      0.95      0.94        97
+
+    accuracy                           0.94       195
+   macro avg       0.94      0.94      0.94       195
+weighted avg       0.94      0.94      0.94       195
+
+[[92  6]
+ [ 5 92]]
+
+
