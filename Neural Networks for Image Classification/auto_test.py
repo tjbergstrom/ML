@@ -4,7 +4,8 @@
 # CSCE A415
 # April 23, 2020
 # ML Final Project
-# automated testing with different parameters and hypertuning
+# build different models automatically
+#  with different parameters and hypertuning
 #
 # terminal command usage:
 # open the virtual environment:

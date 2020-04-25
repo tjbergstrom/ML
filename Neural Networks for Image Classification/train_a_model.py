@@ -21,6 +21,7 @@ from sklearn.preprocessing import LabelBinarizer
 from image_processing.process import Pprocess
 from image_processing.results import Result
 from image_processing.tuning import Tune
+from deepnet.dnet import Deepnet
 from cnn.cnn_net import CNNmodel
 from vgg.vggnet import VGGmodel
 from lenet.lenet import LeNet
@@ -31,13 +32,13 @@ import pickle
 ap = argparse.ArgumentParser()
 ap.add_argument("-s", "--savemodel", type=str, default="image_processing/model.model")
 ap.add_argument("-p", "--plot", type=str, default="image_processing/plot.png")
-ap.add_argument("-d", "--dataset", type=str, default="dataset")
+ap.add_argument("-d", "--dataset", type=str, default="newdataset2")
 ap.add_argument("-a", "--aug", type=str, default="original")
 ap.add_argument("-m", "--model", type=str, default="lenet")
-ap.add_argument("-o", "--opt", type=str, default="Adam")
-ap.add_argument("-i", "--imgsz", type=str, default="s")
-ap.add_argument("-e", "--epochs", type=int, default=10)
-ap.add_argument("-b", "--bs", type=str, default="ms")
+ap.add_argument("-o", "--opt", type=str, default="Adam2")
+ap.add_argument("-i", "--imgsz", type=str, default="m")
+ap.add_argument("-e", "--epochs", type=int, default=50)
+ap.add_argument("-b", "--bs", type=str, default="m")
 args = vars(ap.parse_args())
 
 EPOCHS = args["epochs"]
@@ -51,6 +52,7 @@ cl_labels = lb.fit_transform(cl_labels)
 (trainX, testX, trainY, testY) = Pprocess.split(data, labels)
 aug = Pprocess.dataug(args["aug"])
 
+
 print("\n...building the model...\n")
 if args["model"] == "lenet":
     model = LeNet.build(width=HXW, height=HXW, depth=3, classes=2)
@@ -58,6 +60,8 @@ if args["model"] == "cnn":
     model = CNNmodel.build(width=HXW, height=HXW, depth=3, classes=2)
 if args["model"] == "vgg":
     model = VGGmodel.build(width=HXW, height=HXW, depth=3, classes=2)
+if args["model"] == "deepnet":
+    model = Deepnet.build(width=HXW, height=HXW, depth=3, classes=2)
 opt = Tune.optimizer(args["opt"], EPOCHS)
 model.compile(loss="binary_crossentropy", optimizer=opt, metrics=["accuracy"])
 
