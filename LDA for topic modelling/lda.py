@@ -1,26 +1,6 @@
 # topic modelling
-
 # usage:
 # python3 lda.py
-
-# what this does:
-# takes input text from a .txt file
-# assuming that text has already been filtered down to the actual articles
-# and assuming that they are already filtered for keyword "alaska"
-# preprocesses that text (like stopwords, punctuation, stemming, etc)
-# makes an LDA model with the processed text
-# the model generates 5 topics represented by 10 words each
-# these topics are printed to terminal output
-# the first 4 topics are also generated into a word cloud, and the cloud is saved
-# the 10 most common words are also plotted just for fun, this plot is also saved
-
-# unfinished - trying to save the cloud and plot to a pdf
-# unfinished - LDA generated topics are just represented by 10 words,
-#  so a human has to interpret what that topic is,
-#  so next thing to do is work on guessing a topic from a list of most likely topics,
-#  then save the topic in order to compare trending topics from week to week
-# unfinished - testing with better input text to build the best model,
-#  ie get the most accurate topic predictions
 
 
 import nltk
