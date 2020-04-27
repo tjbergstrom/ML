@@ -1,7 +1,4 @@
-# Ty Bergstrom
-# CSCE 415
-# March 5, 2020
-# Solution to homework assignment 2, part 2
+# python3 regression.py
 
 import pandas as pd
 import seaborn as sns
