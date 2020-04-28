@@ -1,4 +1,5 @@
-# topic modelling
+# Latent Dirichlet Allocation for topic modelling
+# input preprocessed text and predict what topics its about
 # usage:
 # python3 lda.py
 
