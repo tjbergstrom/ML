@@ -46,22 +46,25 @@ BS = Tune.batch_size(args["bs"])
 HXW = Tune.img_size(args["imgsz"])
 
 print("\n...pre-processing the data...\n")
-(data, labels, cl_labels) = Pprocess.preprocess(args["dataset"], HXW)
+(data, cl_labels) = Pprocess.preprocess(args["dataset"], HXW)
 lb = LabelBinarizer()
 cl_labels = lb.fit_transform(cl_labels)
-(trainX, testX, trainY, testY) = Pprocess.split(data, labels)
+num_classes = len(lb.classes_)
+loss_type = "binary_crossentropy"
+if num_classes > 2:
+    loss_type = "categorical_crossentropy"
+(trainX, testX, trainY, testY) = Pprocess.split(data, np.array(cl_labels), num_classes)
 aug = Pprocess.dataug(args["aug"])
-
 
 print("\n...building the model...\n")
 if args["model"] == "lenet":
-    model = LeNet.build(width=HXW, height=HXW, depth=3, classes=2)
+    model = LeNet.build(width=HXW, height=HXW, depth=3, classes=num_classes)
 if args["model"] == "cnn":
-    model = CNNmodel.build(width=HXW, height=HXW, depth=3, classes=2)
+    model = CNNmodel.build(width=HXW, height=HXW, depth=3, classes=num_classes)
 if args["model"] == "vgg":
-    model = VGGmodel.build(width=HXW, height=HXW, depth=3, classes=2)
+    model = VGGmodel.build(width=HXW, height=HXW, depth=3, classes=num_classes)
 if args["model"] == "deepnet":
-    model = Deepnet.build(width=HXW, height=HXW, depth=3, classes=2)
+    model = Deepnet.build(width=HXW, height=HXW, depth=3, classes=num_classes)
 opt = Tune.optimizer(args["opt"], EPOCHS)
 model.compile(loss="binary_crossentropy", optimizer=opt, metrics=["accuracy"])
 

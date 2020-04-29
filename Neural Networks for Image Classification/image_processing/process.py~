@@ -22,6 +22,7 @@ class Pprocess:
 	def preprocess(dataset, HXW):
 		random.seed(42)
 		data = []
+		labels = []
 		cl_labels = []
 		imagePaths = sorted(list(paths.list_images(dataset)))
 		random.seed(42)
@@ -33,16 +34,21 @@ class Pprocess:
 			data.append(image)
 			label = imagePath.split(os.path.sep)[-2]
 			cl_labels.append(label)
+			if label == "beach":
+				label = 1
+			else:
+				label = 0
+			labels.append(label)
 		data = np.array(data, dtype="float") / 255.0
-		return data, cl_labels
+		labels = np.array(labels)
+		return data, labels, cl_labels
 
 
-	def split(data, labels, num_classes):
+	def split(data, labels):
 		(trainX, testX, trainY, testY) = train_test_split(data,
 		labels, test_size=0.20, random_state=42)
-		if num_classes == 2:
-			trainY = to_categorical(trainY, num_classes=num_classes)
-			testY = to_categorical(testY, num_classes=num_classes)
+		trainY = to_categorical(trainY, num_classes=2)
+		testY = to_categorical(testY, num_classes=2)
 		return trainX, testX, trainY, testY
 
 
