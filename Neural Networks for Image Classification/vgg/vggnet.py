@@ -6,6 +6,7 @@
 # ML Final Project
 # build a VGG neural network
 
+
 from keras.layers.normalization import BatchNormalization
 from keras.layers.convolutional import MaxPooling2D
 from keras.layers.convolutional import Conv2D
