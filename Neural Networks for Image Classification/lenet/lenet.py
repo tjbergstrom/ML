@@ -6,7 +6,6 @@
 # ML Final Project
 # build a LeNet neural network
 
-
 from keras.layers.convolutional import MaxPooling2D
 from keras.layers.convolutional import Conv2D
 from keras.layers.core import Activation
