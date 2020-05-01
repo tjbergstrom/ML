@@ -3,7 +3,6 @@
 # usage:
 # python3 lda.py
 
-
 import nltk
 import urllib.request
 from bs4 import BeautifulSoup
