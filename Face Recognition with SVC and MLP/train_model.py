@@ -23,7 +23,7 @@ args = vars(ap.parse_args())
 
 if (args["mod"]).lower() == "svc":
     mod = "SVC"
-elif (args["model"]).lower() == "mlp":
+elif (args["mod"]).lower() == "mlp":
     mod = "MLP"
 else:
     mod = "SVC"
@@ -40,6 +40,7 @@ if mod == "svc":
     #model = CustomSVC.build(trainX, trainY)
     #model = DefaultSVC.build(trainX, trainY, 0)
 elif mod == "mlp":
+    model = CustomMLP.build(96, 96, 3, 3)
     model = MLPClassifier(hidden_layer_sizes=(150,100,50), max_iter=300, activation='relu', solver='adam', random_state=1)
 M = model.fit(trainX, trainY)
 predictions = model.predict(testX)
