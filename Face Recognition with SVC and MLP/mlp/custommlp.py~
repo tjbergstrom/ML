@@ -6,9 +6,9 @@ from keras.optimizers import SGD
 from keras.layers import Dense
 
 class CustomMLP:
-	#def preprocess(dataset):
+	def preprocess(dataset):
 		# not necessary
-        #return dataset
+        return dataset
 
 	def build(width, height, depth, classes):
 		input_shape = (height, width, depth)

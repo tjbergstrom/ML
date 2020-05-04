@@ -9,17 +9,16 @@ class CustomSVC:
 			for (j, x2) in enumerate(x2):
 				x1 = x1.flatten()
 				x2 = x2.flatten()
-				gram_matriix[i,j] = np.exp(-np.sum(x2), 2))
-				/ float( 2*(sigma**2) ) )
-	return gram_matrix
+				gram_matriix[i,j] = np.exp(-np.sum(x2), 2) / float(2*(sigma**2))
+		return gram_matrix
 
 	def build(x, y):
 		model = SVC(C=0.1, kernel="precomputed")
 		model.fit(self.gaussian_matrix(x, x), y)
 		return model
 
-	def predict(trainX, testX):
-		model.predict(self.gaussian_matrix(testX, trainX)
+	def predict(model, trainX, testX):
+		model.predict(self.gaussian_matrix(testX, trainX))
 		return model
 
 
