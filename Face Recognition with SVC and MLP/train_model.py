@@ -41,7 +41,9 @@ if mod == "svc":
     #model = DefaultSVC.build(trainX, trainY, 0)
 elif mod == "mlp":
     model = CustomMLP.build(96, 96, 3, 3)
-    model = MLPClassifier(hidden_layer_sizes=(150,100,50), max_iter=300, activation='relu', solver='adam', random_state=1)
+    opt = CustomMLP.optimize()
+    CustomMLP.compile(model, opt)
+    #model = MLPClassifier(hidden_layer_sizes=(150,100,50), max_iter=300, activation='relu', solver='adam', random_state=1)
 M = model.fit(trainX, trainY)
 predictions = model.predict(testX)
 print(classification_report(testY, predictions, target_names=le.classes_))

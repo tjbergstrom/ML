@@ -22,6 +22,7 @@ class CustomMLP:
 
 	def optimize():
 		opt = SGD(lr=0.1, decay=0.00001, nesterov=True)
+		opt = Adam(lr=0.0001, decay=0.0001)
 		return opt
 
 	def compile(model, opt):
