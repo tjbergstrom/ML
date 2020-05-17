@@ -7,7 +7,7 @@ Save them to the dataset directory.
 process.py will take the whole dataset and quantify every face with 128-D encodings,
 and save them with their associated names.
 
-It uses a pre-trained model to find faces in a photo, and another pre-trained model that quanities a face into the embedding.
+It uses a pre-trained model to find faces in a photo, and another pre-trained model that quantifies a face into the embedding.
 
 tran_model.py will take those embeddings and names, and do the machine learning.
 
