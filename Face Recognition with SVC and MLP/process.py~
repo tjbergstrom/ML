@@ -1,12 +1,4 @@
-# process.py
-# input original images of everyone's faces
-# and then for each image
-#  detect a face in the image
-#  quanitify the face into a 128 bit embedding
-#  save all the embeddings with the name that goes with each face
-# the embeddings are then ready to be learned by an ML model
 
-# run with:
 # python3 process.py
 
 from imutils import paths
@@ -20,14 +12,15 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--embedding-model", type=str, default="openface_nn4.small2.v1.t7")
 ap.add_argument("-e", "--embeddings", type=str, default="data/embeddings.pickle")
+ap.add_argument("-d", "--detector", type=str, default="face_detection_model")
 ap.add_argument("-i", "--dataset", type=str, default="dataset")
 ap.add_argument("-c", "--confidence", type=float, default=0.5)
 args = vars(ap.parse_args())
 
-protoPath = "data/deploy.prototxt"
-modelPath = "data/res10_300x300_ssd_iter_140000.caffemodel"
+protoPath = os.path.sep.join([args["detector"], "deploy.prototxt"])
+modelPath = os.path.sep.join([args["detector"],	"res10_300x300_ssd_iter_140000.caffemodel"])
 detector = cv2.dnn.readNetFromCaffe(protoPath, modelPath)
-embedder = cv2.dnn.readNetFromTorch("data/openface_nn4.small2.v1.t7")
+embedder = cv2.dnn.readNetFromTorch(args["embedding_model"])
 
 imagePaths = list(paths.list_images(args["dataset"]))
 knownEmbeddings = []
@@ -38,13 +31,11 @@ for (i, imagePath) in enumerate(imagePaths):
 	print(" processing image {}/{}".format(i + 1, len(imagePaths)))
 	name = imagePath.split(os.path.sep)[-2]
 	image = cv2.imread(imagePath)
-	#image = imutils.resize(image, width=600)
+	image = imutils.resize(image, width=600)
 	(h, w) = image.shape[:2]
 
 	# detect faces in the image
-	imageBlob = cv2.dnn.blobFromImage(cv2.resize(image,
-	(300, 300)), 1.0, (300, 300), (104.0, 177.0, 123.0),
-	swapRB=False, crop=False)
+	imageBlob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 1.0, (300, 300), (104.0, 177.0, 123.0), swapRB=False, crop=False)
 	detector.setInput(imageBlob)
 	detections = detector.forward()
 
@@ -63,8 +54,7 @@ for (i, imagePath) in enumerate(imagePaths):
 				continue
 
 			# quantify the face
-			faceBlob = cv2.dnn.blobFromImage(face, 1.0 / 255,
-			(96, 96), (0, 0, 0), swapRB=True, crop=False)
+			faceBlob = cv2.dnn.blobFromImage(face, 1.0 / 255, (96, 96), (0, 0, 0), swapRB=True, crop=False)
 			embedder.setInput(faceBlob)
 			vec = embedder.forward()
 			knownNames.append(name)
