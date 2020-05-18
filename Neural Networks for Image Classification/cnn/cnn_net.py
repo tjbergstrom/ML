@@ -45,4 +45,3 @@ class CNNmodel:
 		return model
 
 
-
