@@ -22,7 +22,6 @@ class CNNmodel:
 	def build(width, height, depth, classes):
 		inputShape = (height, width, depth)
 		model = Sequential()
-		inputShape = (height, width, depth)
 
 		# convolutional layer
 		model.add(Conv2D(8, (3, 3), padding="same", input_shape=inputShape))
