@@ -20,5 +20,4 @@ But in any case, better data - more photos, and better quality photos - is the k
 classify.py is also pretty trivial. Just upload a photo. It will find any faces in it,
 and compare them with the faces that the model has been trained to recognize.
 
-In any case, again, the model is only as good as the data it has been trained with. A few photos per each person will not
-be able to recognize anyone very well.
+## Again, the model is only as good as the data it has been trained with. A few photos per each person will not be able to recognize anyone very well.
