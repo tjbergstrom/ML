@@ -6,6 +6,8 @@ Or you can do categorical classification - classify what kinda scene an image is
 
 No need to specify which. You need to have a dataset directory with one subdirectory for each of the classes, each filled with photos of course.
 
+The original model I made was attempting to detect whether an image contains a person holding a cell phone or a handgun.
+
 You can run a default train_a_model.py with zero arguments, or you can customize a model with several different preset tunings with the following optional arguments.
 
 ### Choose a model:
@@ -47,3 +49,5 @@ Options are original, light1, ligh2, light3, medium1, medium2, medium3, heavy1, 
 ### Example command:
 
 python3 -W ignore -m lenet -e 75 -o Adam2 -b m -i m -a light
+
+(I found those tunings achieved the highest accuracy)
