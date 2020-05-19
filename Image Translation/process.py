@@ -4,7 +4,8 @@
 # save this face as a new 256x256 image
 
 # this is important because the models need good photos of just faces
-# the face detector is pretty accurate, but check the processed dataset afterwords and delete any photos that aren't actually a face
+# the face detector is pretty accurate even with anime faces, but
+# check the processed dataset afterwords and delete any photos that aren't actually a face
 
 # python3 process.py -d A_girl_selfies
 # python3 process.py -d A_guy_selfies
