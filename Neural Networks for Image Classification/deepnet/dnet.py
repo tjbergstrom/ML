@@ -28,27 +28,28 @@ class Deepnet:
 			chanDim = 1
 
 		# one convolutional layer
-		model.add(Conv2D(25, (5, 5), padding="same", input_shape=inputShape))
+		model.add(Conv2D(8, (5, 5), padding="same", input_shape=inputShape))
 		model.add(Activation("relu"))
 		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 		# two convolutional layers
-		model.add(Conv2D(50, (5, 5), padding="same"))
+		model.add(Conv2D(16, (5, 5), padding="same"))
 		model.add(Activation("relu"))
 		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 		# three convolutional layers
-		model.add(Conv2D(50, (5, 5), padding="same"))
+		model.add(Conv2D(32, (5, 5), padding="same"))
 		model.add(Activation("relu"))
 		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 
 		# four convolutional layers
-		model.add(Conv2D(50, (5, 5), padding="same"))
+		model.add(Conv2D(64, (5, 5), padding="same"))
 		model.add(Activation("relu"))
 		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+		model.add(Dropout(0.1))
 
 		# five convolutional layers
-		model.add(Conv2D(50, (5, 5), padding="same"))
+		model.add(Conv2D(128, (5, 5), padding="same"))
 		model.add(Activation("relu"))
 		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 		model.add(Dropout(0.1))
