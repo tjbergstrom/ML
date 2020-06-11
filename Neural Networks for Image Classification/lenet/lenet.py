@@ -35,7 +35,7 @@ class LeNet:
 
 		# only set of fully connected relu layers
 		model.add(Flatten())
-		model.add(Dense(500))
+		model.add(Dense(512))
 		model.add(Activation("relu"))
 
 		model.add(Dense(classes))
