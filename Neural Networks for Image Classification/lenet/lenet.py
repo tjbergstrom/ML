@@ -44,4 +44,3 @@ class LeNet:
 		return model
 
 
-
